@@ -45,7 +45,7 @@ Fancy & Usefull documentation for mergefs:
 
 https://perfectmediaserver.com/tech-stack/mergerfs/
 
-Common problem with new users
+New users common problem/caveat
 
 https://github.com/trapexit/mergerfs#why-are-all-my-files-ending-up-on-1-drive
 
