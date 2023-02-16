@@ -16,12 +16,14 @@ aaand that's it...
 
 ## Fstab examples
 
-Create `/storage`, and run `chown $USER:$USER -R /storage`<br>
-Create `disk00X` directory in `/mnt` dir, then mount one of your external disk to it.<br><br>
+Create `/storage`, and run `chown $USER:$USER -R /storage`
+
+Create `disk00X` directory in `/mnt` dir, then mount one of your external disk to it.
 
 Get uuid:
 
-`ls -al /dev/disk/by-uuid/`<br><br>
+`ls -al /dev/disk/by-uuid/`
+
 Example:
 ```bash
 $ cat /etc/fstab
@@ -34,7 +36,8 @@ UUID=a60d725e-cd1b-40f3-8f23-d087f81f198a /mnt/disk001  ext4    auto,nofail,noat
 /mnt/disk* /storage fuse.mergerfs threads=12,allow_other,use_ino,cache.files=off,dropcacheonclose=true,category.create=mfs,moveonenospc=true,minfreespace=10G,fsname=mergerfsPool,nonempty 0 0
 ```
 
-In the example above, ext_disk will be mounted in /mnt/diskXXX <br>
+In the example above, ext_disk will be mounted in /mnt/diskXXX
+
 All /mnt/disk* will be mounted as mergefs filesystem on /storage
 
 ## Reading materials
