@@ -20,7 +20,7 @@ http://download.friendlyelec.com/nanopineoplus2
 
 Another possibility: https://www.armbian.com/nanopi-neo-plus2/
 
-It may work, but you can't flash to EMMC ... idon't know
+It may work, but you can't flash to EMMC ... I don't know
 
 You can download ubuntu focal image for neo plus 2 from here:
 
@@ -41,7 +41,8 @@ dd if=h5_eflasher_friendlycore-focal_4.14_arm64_20210615.img of=/dev/mmcblk0 cou
 
 After dd, you ready to rollll...
 
-Put the card into neo, then pray to god to work, cuz its there a chance to not to...<br>
+Put the card into neo, then pray to god to work, cuz its there a chance to not to...
+
 If it has IP addresse and you can log in via ssh, then you are good, go to `flash with eflasher` section
 
 # Sd card seems not booting / no IP and ssh
