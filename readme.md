@@ -92,10 +92,11 @@ iface eth0 inet dhcp
 ```
 shown above, comment static ip and enable dhcp, save it !
 
-After that, you can ssh with root user, you can watch with iotop when flash process will be finished.<br>
+After that, you can ssh with root user, you can watch with iotop when flash process will be finished.
+
 Reboot, and remove sd card, ubuntu will boot from EMMC
 
-I got the instructions from here: https://wiki.friendlyelec.com/wiki/index.php/EFlasher
+I got these instructions from here: https://wiki.friendlyelec.com/wiki/index.php/EFlasher
 
 You can skip the `Flash with eflasher` section ...
 
